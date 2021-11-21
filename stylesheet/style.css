@@ -1,0 +1,346 @@
+/*////////////////////
+///ELEMENT STYLING/// 
+//////////////////*/
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: #8ad0fc;
+    padding: 0px 4%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 10px;
+    height: 35px;
+    z-index: 5;
+
+    background-color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px 15px;
+
+    text-align: start;
+    font-size: 22px;
+}
+
+td {
+    font-size: 22px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    width: 450px;
+    line-height: 65px;
+    border-radius: 30px;
+    font-size: 40px;
+
+    color: #fff;
+}
+
+h3 {
+    font-family: 'Play', sans-serif;
+    font-size: 24px;
+}
+
+p {
+    font-size: 1rem;
+}
+
+span {
+    text-align: right;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+li,
+ul,
+a {
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a:visited {
+    color: black;
+}
+
+ul {
+    padding: 5% 0%;
+}
+
+
+
+/*////////////////////
+//////HEADER+NAV/////
+//////////////////*/
+
+.navImg {
+    z-index: 6;
+}
+
+.navBtn1 {
+    background-color: #FD7D00;
+}
+
+.navBtn2 {
+    background-color: #4992FF;
+}
+
+.navBtn3 {
+    background-color: #04C488;
+}
+
+.navBtn4 {
+    background-color: #F90388;
+}
+
+.navBtn1,
+.navBtn2,
+.navBtn3,
+.navBtn4 {
+    border-radius: 30px;
+    border-style: none;
+    padding: 7px 30px;
+    margin: 0px 5px;
+    width: 200px;
+
+    font-size: 20px;
+    color: #fff;
+}
+
+.navBtn1:hover,
+.navBtn2:hover,
+.navBtn3:hover,
+.navBtn4:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.menuIconBox {
+    display: none;
+}
+
+/*////////////////////
+////////FOOTER///////
+//////////////////*/
+.footerTextBox {
+    margin-top: 1%;
+}
+
+#imgFooter {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+/*////////////////////
+//////HOME PAGE//////
+//////////////////*/
+
+.homeImgRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.homeImg {
+    width: 100%;
+    height: auto;
+}
+
+.centerBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: 50px 0px;
+}
+
+.headingDecorationBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.headingDecorationImg {
+    margin: auto;
+    height: auto;
+    width: 10%;
+}
+
+#exploreHeading {
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FF2E00;
+}
+
+.exploreText {
+    text-align: center;
+    font-size: 22px;
+}
+
+#gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 600px;
+    width: 99.8%;
+}
+
+.mapBox {
+    height: 600px;
+    width: 100%;
+}
+
+.specialEventHeading {
+    background-color: #FD7D00;
+}
+
+.exhibitionHeading {
+    background-color: #4992FF;
+}
+
+.exhibitionBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imgExhibitionRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: 40px 0px;
+}
+
+.imgExhibitionBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgExhibition {
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+}
+
+/*////////////////////
+/////EXHIBITIONS/////
+//////////////////*/
+
+.exhibitionSectionBox {
+    display: flex;
+    flex-direction: row;
+    margin: 150px 0px;
+}
+
+/*////////////////////
+///SPECIAL EVENTS////
+//////////////////*/
+
+.specialEventSectionBox {
+    display: flex;
+    flex-direction: row;
+
+    padding: 100px 0px;
+}
+
+.specialEventText {
+    width: 350px;
+    padding: 0% 3%;
+}
+
+/*////////////////////
+////////VISIT////////
+//////////////////*/
+
+.visitHeading {
+    background-color: #04C488;
+}
+
+/*////////////////////
+////////ABOUT////////
+//////////////////*/
+
+.aboutHeading {
+    background-color: #F90388;
+}
+
+#groupHexaImg {
+    height: auto;
+    width: 90%;
+}
+
+#museumHexa {
+    height: auto;
+    width: 100%;
+}
+
+.aboutText {
+    width: 350px;
+    padding: 0% 3%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aboutSectionBox {
+    display: flex;
+    flex-direction: row;
+
+    padding: 100px 0px;
+    margin-left: 5%;
+}
+
+
+
+/*////////////////////
+////////MEDIA////////
+//////////////////*/
+
+@media (max-width:1040px) {
+    .navBtnBox {
+        display: none;
+    }
+
+    .menuIconBox {
+        display: inline-block;
+
+    }
+}
