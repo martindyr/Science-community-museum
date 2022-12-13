@@ -1,6 +1,6 @@
 # Science Community Museum
 
-![image](https://user-images.githubusercontent.com/76110230/206708705-e8760c35-042b-4a00-9917-6bc62d7e72c2.png)
+![image](https://user-images.githubusercontent.com/76110230/207369151-7bce8919-1ffe-417e-9376-fd325ccaa3ea.png)
 
 A website that should attract kids and young adults to a local museum.
 
